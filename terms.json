@@ -1,0 +1,78 @@
+[
+  {
+    "name": "CPU",
+    "definition": "Central Processing Unit - komponen utama dalam sebuah komputer yang bertanggung jawab melakukan sebagian besar pemrosesan di dalam komputer."
+  },
+  {
+    "name": "RAM",
+    "definition": "Random Access Memory - jenis memori komputer yang bersifat volatil (data hilang ketika listrik mati). RAM digunakan untuk menyimpan data yang sedang digunakan oleh program yang berjalan."
+  },
+  {
+    "name": "SSD",
+    "definition": "Solid State Drive - jenis perangkat penyimpanan yang menggunakan sirkuit terpadu untuk menyimpan data secara persisten. SSD biasanya digunakan sebagai pengganti hard drive tradisional karena kecepatan transfer data yang lebih tinggi dan waktu akses yang lebih cepat."
+  },
+  {
+    "name": "GPU",
+    "definition": "Graphics Processing Unit - komponen yang menghasilkan dan mengontrol tampilan grafis yang ditampilkan di layar. GPU sering digunakan dalam permainan komputer, rendering grafis, dan pemrosesan paralel."
+  },
+  {
+    "name": "HTML",
+    "definition": "Hypertext Markup Language - bahasa pemrograman yang digunakan untuk membuat struktur dan konten pada halaman web. HTML digunakan untuk mendefinisikan elemen-elemen seperti teks, gambar, tautan, dan lain-lain."
+  },
+  {
+    "name": "CSS",
+    "definition": "Cascading Style Sheets - code yang digunakan untuk mengatur tampilan dan tata letak elemen-elemen yang ditampilkan di halaman web. CSS digunakan untuk mengubah warna, ukuran, jenis font, dan aspek visual lainnya pada elemen-elemen HTML."
+  },
+  {
+    "name": "JavaScript",
+    "definition": "bahasa pemrograman tingkat tinggi yang digunakan untuk menambahkan interaktivitas dan fitur dinamis pada halaman web. JavaScript dapat digunakan untuk mengendalikan perilaku elemen-elemen HTML, memanipulasi data, dan berinteraksi dengan pengguna."
+  },
+  {
+    "name": "API",
+    "definition": "Application Programming Interface - kumpulan aturan dan protokol yang memungkinkan aplikasi perangkat lunak untuk berkomunikasi dan berinteraksi satu sama lain. API memungkinkan aplikasi menggunakan fungsionalitas atau layanan dari aplikasi atau platform lain."
+  },
+  {
+    "name": "URL",
+    "definition": "Uniform Resource Locator - alamat yang digunakan untuk mengidentifikasi lokasi suatu sumber daya di internet. URL biasanya digunakan untuk mengakses halaman web, file, atau layanan lainnya melalui protokol HTTP atau HTTPS."
+  },
+  {
+    "name": "DNS",
+    "definition": "Domain Name System - sistem penamaan domain yang terdesentralisasi dan digunakan untuk menerjemahkan nama domain yang mudah diingat menjadi alamat IP yang digunakan oleh komputer untuk berkomunikasi di jaringan internet."
+  },
+  {
+    "name": "FTP",
+    "definition": "File Transfer Protocol - protokol jaringan yang digunakan untuk mentransfer file antara komputer-komputer dalam suatu jaringan. FTP umumnya digunakan untuk mengunggah dan mengunduh file ke dan dari server"
+  },
+  {
+    "name": "HTTP",
+    "definition": "Hypertext Transfer Protocol - protokol aplikasi yang digunakan untuk mengirim dan menerima data melalui internet. HTTP digunakan untuk mengakses halaman web dan mentransfer berbagai jenis konten seperti teks, gambar, video, dan lain-lain."
+  },
+  {
+    "name": "HTTPS",
+    "definition": "Hypertext Transfer Protocol Secure - versi yang diamankan dari HTTP. HTTPS menggunakan lapisan keamanan tambahan yang disebut SSL/TLS (Secure Sockets Layer/Transport Layer Security) untuk melindungi data yang dikirimkan antara server dan klien. HTTPS digunakan untuk menjaga kerahasiaan dan integritas data saat berkomunikasi melalui jaringan."
+  },
+  {
+    "name": "LAN",
+    "definition": "Local Area Network - jaringan komputer lokal yang terbatas dalam area geografis tertentu, seperti di dalam satu gedung, kampus, atau kantor. LAN biasanya digunakan untuk menghubungkan beberapa komputer dan perangkat lainnya agar dapat berbagi sumber daya dan berkomunikasi satu sama lain."
+  },
+  {
+    "name": "WAN",
+    "definition": "Wide Area Network - jaringan komputer yang mencakup area geografis yang lebih luas, seperti antar kota, negara, atau bahkan di seluruh dunia. WAN menghubungkan beberapa jaringan lokal (LAN) dan menggunakan infrastruktur seperti kabel serat optik, saluran telepon, atau sinyal radio untuk mentransmisikan data antara lokasi yang berbeda."
+  },
+  {
+    "name": "BIOS",
+    "definition": "Basic Input/Output System - perangkat lunak yang terletak di dalam chip pada motherboard komputer. BIOS berfungsi untuk menginisialisasi dan mengontrol perangkat keras saat komputer dinyalakan. BIOS juga menyediakan layanan dasar untuk sistem operasi komputer."
+  },
+  {
+    "name": "OS",
+    "definition": "Operating System - perangkat lunak yang mengelola sumber daya komputer, seperti perangkat keras, perangkat lunak, dan interaksi dengan pengguna. Sistem operasi menyediakan antarmuka untuk menjalankan program, mengelola file, memori, dan layanan lainnya. Contoh sistem operasi populer termasuk Windows, macOS, dan Linux."
+  },
+  {
+    "name": "GUI",
+    "definition": "Graphical User Interface - antarmuka pengguna berbasis grafis yang menggunakan elemen visual seperti ikon, jendela, dan tombol untuk berinteraksi dengan komputer atau perangkat lunak. GUI mempermudah pengguna dalam berkomunikasi dengan sistem operasi atau aplikasi dengan cara yang lebih intuitif dan visual."
+  },
+  {
+    "name": "CLI",
+    "definition": "Command Line Interface - Merupakan antarmuka pengguna berbasis teks yang memungkinkan pengguna untuk berinteraksi dengan sistem operasi atau program melalui baris perintah. Dalam CLI, pengguna memasukkan perintah teks secara langsung ke dalam terminal atau command prompt untuk menjalankan tugas dan mengatur sistem."
+  }
+]

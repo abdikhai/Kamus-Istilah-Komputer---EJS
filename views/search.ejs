@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hasil Pencarian</title>
+    <!-- Add Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5">Hasil Pencarian untuk "<%= query %>"</h1>
+      <% if (results.length > 0) { %>
+      <ul class="list-group mt-4">
+        <% results.forEach((term) => { %>
+        <li class="list-group-item">
+          <h2><%= term.name %></h2>
+          <p><%= term.definition %></p>
+        </li>
+        <% }); %>
+      </ul>
+      <% } else { %>
+      <p class="mt-4">Tidak ada hasil yang ditemukan.</p>
+      <% } %>
+      <a href="/" class="btn btn-primary mt-4">Kembali ke Pencarian</a>
+    </div>
+
+    <!-- Add Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

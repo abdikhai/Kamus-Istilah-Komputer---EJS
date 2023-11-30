@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Kamus Istilah Komputer</title>
+  </head>
+  <body>
+    <h1>Kamus Istilah Komputer</h1>
+
+    <form action="/kamus/search" method="GET">
+      <input type="text" name="term" placeholder="Cari istilah..." />
+      <button type="submit">Cari</button>
+    </form>
+
+    <ul>
+      <% terms.forEach(term => { %>
+      <li><strong><%= term.term %></strong>: <%= term.definition %></li>
+      <% }); %>
+    </ul>
+
+    <% if (searchTerm) { %>
+    <p>
+      Hasil pencarian untuk "<%= searchTerm %>": <%= terms.length %> istilah
+      ditemukan.
+    </p>
+    <% } %>
+  </body>
+</html>
